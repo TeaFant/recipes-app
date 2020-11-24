@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.801);
+  padding: 20px;
+}
+.links {
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+.link {
+  color: black;
+}
+.link:hover,
+.links:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.671);
+}
+.aboutMe {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  text-align: left;
+  margin: auto;
+  width: 80%;
+}
+.aboutMe img {
+  border-radius: 50%;
+  padding-bottom: 30px;
+}
+.aboutMe p {
+  padding-left: 50px;
+  flex: 1 1 70%; /*  Stretching: */
+}
+.searchBar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.searchBar input {
+  width: 70%;
+  max-width: 500px;
+  height: 50px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.searchBar button{
+  width: 75px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.801);
+  color: whitesmoke;
+}
+.wrapper {
+  width: 90%;
+  margin: 20px auto 50px;
+  display: grid;
+  grid-gap: 2rem;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.recipes {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+.recipes-header {
+  height: 100px;
+}
+.recipes img {
+  height: 50%;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.footer {
+  background-color: whitesmoke;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.footer p {
+  padding: 20px 0 5px 0;
+  margin-bottom: 0;
+}
